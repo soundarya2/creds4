@@ -1,0 +1,9 @@
+
+    <div class="wrapper">
+    <ul>
+    <li *ngFor="let menuItem of menuList; let i = index">
+        <a [href]="menuItem.url">{{menuItem.displayName}}</a>
+    </li>
+    </ul>
+    </div>
+
